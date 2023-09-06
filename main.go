@@ -9,4 +9,8 @@ func main() {
 	fmt.Println("Hello world")
 
 	variables.ShowIntegers()
+	variables.ShowStrings()
+	variables.ShowBooleans()
+	variables.ShowFloats()
+	variables.ShowTime()
 }
