@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"learning-go/exercises"
+	"learning-go/files"
 )
 
 func main() {
@@ -25,7 +24,17 @@ func main() {
 	//conditionals.ShowOS()
 	//conditionals.ShowOSWithSwitch()
 
-	num, msg := exercises.Evaluator("13")
-	fmt.Println(num)
-	fmt.Println(msg)
+	//num, msg := exercises.Evaluator("13")
+	//fmt.Println(num)
+	//fmt.Println(msg)
+
+	// Key inputs
+	//inputs.NumInput()
+
+	// Iterators
+	//iterators.ForIterator()
+
+	//exercises.MultiplyTable()
+
+	files.CreateFile()
 }
