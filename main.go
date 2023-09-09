@@ -1,7 +1,8 @@
 package main
 
 import (
-	"learning-go/files"
+	"learning-go/poo/controllers"
+	"learning-go/poo/models"
 )
 
 func main() {
@@ -36,5 +37,31 @@ func main() {
 
 	//exercises.MultiplyTable()
 
-	files.CreateFile()
+	// Creating files
+	//files.CreateFile()
+
+	// Clousures
+	//functions.CallClousure()
+
+	// Recursivity
+	//functions.Pow(2)
+
+	/* Arrays */
+	//arraysslices.ShowArray()
+
+	/* Slices */
+	//arraysslices.ShowSlice()
+	//arraysslices.Capacity()
+
+	/* Maps */
+	//maps.ShowMap()
+
+	/* POO */
+	//controllers.NewUser()
+
+	Matt := new(models.Man)
+	controllers.PersonBreathing(Matt)
+
+	Ana := new(models.Female)
+	controllers.PersonBreathing(Ana)
 }
